@@ -5,7 +5,7 @@ const app = express();
 const port = 3000; 
 app.get('/', async (req, res) => {
   try {
-    res.send("hellow this is working fine");
+    res.send("hellow this is working fine v2");
   } catch (err) {
     res.status(500).send('Error interacting with Redis');
   }
