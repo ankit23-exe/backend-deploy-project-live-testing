@@ -1,0 +1,7 @@
+name : testing 
+services:
+  backend:
+    build: .
+    container_name: backend_container
+    ports:
+      - "3000:3000"
